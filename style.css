@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.img {
+    background: url(img.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    height: 100px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    width: 160px;
+    height: auto;
+    padding: 20px 50px;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 10px;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 90px;
+
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(236, 247, 247);
+    font-size: 20px;
+    padding: 6px, 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: .4s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover {
+    background-color: rgb(68, 55, 136);
+    border-radius: 4px;
+}
